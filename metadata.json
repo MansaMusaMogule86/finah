@@ -1,0 +1,7 @@
+{
+  "name": "Finah Beauty | فنة - مركز تجميل مغربي",
+  "description": "Moroccan beauty sanctuary in Dubai specializing in authentic hammam rituals, bridal beauty, hair care, and holistic wellness.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

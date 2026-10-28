@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-finah-teal: #075B60;
+    --color-finah-gold: #F1C17F;
+    --color-finah-cream: #FFF7EA;
+    --color-finah-sand: #F7E5C8;
+    --color-finah-ink: #173D3E;
+    --color-finah-border: #DBC7A6;
+  }
+
+  body {
+    font-family: 'Tajawal', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: var(--color-finah-cream);
+    color: var(--color-finah-ink);
+  }
+
+  [dir="ltr"] body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  [dir="rtl"] .font-serif {
+    font-family: 'Amiri', 'Tajawal', Georgia, serif;
+  }
+
+  [dir="ltr"] .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+.font-editorial {
+  font-family: 'Cormorant Garamond', 'Amiri', serif;
+}
+
+.font-arabic-display {
+  font-family: 'Tajawal', 'Amiri', sans-serif;
+}
+
+/* Moroccan Arch Frame Classes */
+.moroccan-arch {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+.moroccan-arch-subtle {
+  border-top-left-radius: 6rem;
+  border-top-right-radius: 6rem;
+}
+
+.moroccan-doorway {
+  border-top-left-radius: 12rem;
+  border-top-right-radius: 12rem;
+}
+
+/* Restrained Zellige Pattern overlay */
+.bg-zellige-subtle {
+  background-image: radial-gradient(#075B60 0.6px, transparent 0.6px), radial-gradient(#F1C17F 0.6px, #FFF7EA 0.6px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+  background-color: #FFF7EA;
+}
+
+.bg-sand-warm {
+  background-color: #F7E5C8;
+}
+
+.bg-cream-soft {
+  background-color: #FFF7EA;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF7EA;
+}
+::-webkit-scrollbar-thumb {
+  background: #DBC7A6;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #075B60;
+}
+
+/* ==========================================================================
+   Finah Rewards Progress Bar Sparkle & Confetti Animations
+   ========================================================================== */
+
+@keyframes finahSparkle {
+  0% {
+    transform: translate(0, 0) scale(0.2) rotate(0deg);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    transform: translate(var(--tw-sparkle-x, 0px), -12px) scale(1.15) rotate(45deg);
+  }
+  70% {
+    opacity: 0.9;
+    transform: translate(calc(var(--tw-sparkle-x, 0px) * 1.5), -28px) scale(0.95) rotate(90deg);
+  }
+  100% {
+    transform: translate(calc(var(--tw-sparkle-x, 0px) * 2), -44px) scale(0) rotate(180deg);
+    opacity: 0;
+  }
+}
+
+@keyframes finahConfettiFlutter {
+  0% {
+    transform: translate(0, -6px) rotate(0deg) scale(0.5);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+    transform: translate(var(--tw-drift-x, 4px), 6px) rotate(60deg) scale(1);
+  }
+  60% {
+    opacity: 0.85;
+    transform: translate(calc(var(--tw-drift-x, 4px) * -1.2), 22px) rotate(160deg) scale(0.9);
+  }
+  100% {
+    transform: translate(calc(var(--tw-drift-x, 4px) * 1.8), 38px) rotate(270deg) scale(0.4);
+    opacity: 0;
+  }
+}
+
+@keyframes finahShimmerWave {
+  0% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(250%);
+  }
+}
+
+@keyframes finahHaloPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(241, 193, 127, 0.8), 0 0 10px rgba(7, 91, 96, 0.3);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(241, 193, 127, 0), 0 0 18px rgba(7, 91, 96, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(241, 193, 127, 0), 0 0 0 rgba(7, 91, 96, 0);
+  }
+}
+
+.animate-finah-sparkle {
+  animation: finahSparkle 2.4s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+}
+
+.animate-finah-confetti {
+  animation: finahConfettiFlutter 3s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+
+.animate-finah-shimmer {
+  animation: finahShimmerWave 2.8s ease-in-out infinite;
+}
+
+.animate-finah-halo {
+  animation: finahHaloPulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 8s linear infinite;
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage -->
+  <url>
+    <loc>https://finahbeauty.com/</loc>
+    <lastmod>2026-10-27T08:00:00+04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- The Finah Journal Index -->
+  <url>
+    <loc>https://finahbeauty.com/journal</loc>
+    <lastmod>2026-10-27T08:00:00+04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Article 1: Hair Treatments Dubai -->
+  <url>
+    <loc>https://finahbeauty.com/journal/best-beauty-salons-dubai-hair-treatments</loc>
+    <lastmod>2026-10-27T08:00:00+04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Article 2: Luxury Hair Coloring Dubai -->
+  <url>
+    <loc>https://finahbeauty.com/journal/luxury-hair-coloring-dubai</loc>
+    <lastmod>2026-10-27T08:00:00+04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Article 3: Book Luxury Salon Online Dubai -->
+  <url>
+    <loc>https://finahbeauty.com/journal/book-luxury-beauty-salon-dubai-online</loc>
+    <lastmod>2026-10-27T08:00:00+04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Article 4: Luxury Manicure & Pedicure Dubai -->
+  <url>
+    <loc>https://finahbeauty.com/journal/luxury-manicure-pedicure-dubai</loc>
+    <lastmod>2026-10-27T08:00:00+04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Core Commercial Services -->
+  <url>
+    <loc>https://finahbeauty.com/services</loc>
+    <lastmod>2026-10-27T08:00:00+04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finahbeauty.com/hammam</loc>
+    <lastmod>2026-10-27T08:00:00+04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finahbeauty.com/bridal</loc>
+    <lastmod>2026-10-27T08:00:00+04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://finahbeauty.com/design-visit</loc>
+    <lastmod>2026-10-27T08:00:00+04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://finahbeauty.com/visit</loc>
+    <lastmod>2026-10-27T08:00:00+04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
